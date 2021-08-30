@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>C++ STL编程学习（一）容器</title>
+      <link href="/2021/08/30/c-plus-plus-stl-study-1/"/>
+      <url>/2021/08/30/c-plus-plus-stl-study-1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="容器"><a href="#容器" class="headerlink" title="容器"></a>容器</h3><p>没有<strong>STL</strong>，我们的<strong>数据结构</strong>要不断的去重复实现。</p><p>我们一直在不断地重复实现一些诸如<strong>链表</strong>、<strong>集合</strong>等等这些常见的<strong>数据结构</strong>，这些代码使用起来往往都十分类似，只是为了适应不同数据的变化，可能需要在一些细节上做不同的处理。</p><p>简单的理解：</p><p>模板类的<strong>集合</strong>，<strong>容器</strong>内是<strong>封装</strong>的方法。</p><table><thead><tr><th>容器种类</th><th align="center">功能</th></tr></thead><tbody><tr><td>序列容器</td><td align="center">主要包括 <strong>vector</strong> 向量容器、<strong>list</strong> 列表容器以及 <strong>deque</strong> 双端队列容器。之所以被称为序列容器，是因为元素在容器中的位置同元素的值无关，即容器不是排序的。将元素插入容器时，指定在什么位置，元素就会位于什么位置。</td></tr><tr><td>排序容器</td><td align="center">包括 <strong>set</strong> 集合容器、<strong>multiset</strong>多重集合容器、<strong>map</strong>映射容器以及 <strong>multimap</strong> 多重映射容器。排序容器中的元素默认是由小到大排序好的，即便是插入元素，元素也会插入到适当位置。所以关联容器在查找时具有非常好的性能。</td></tr><tr><td>哈希容器</td><td align="center">C++ 11 新加入 4 种关联式容器，分别是 <strong>unordered_set</strong> 哈希集合、<strong>unordered_multiset</strong> 哈希多重集合、<strong>unordered_map</strong> 哈希映射以及 <strong>unordered_multimap</strong> 哈希多重映射。和排序容器不同，哈希容器中的元素是未排序的，元素的位置由哈希函数确定。</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo新手教程（一）</title>
       <link href="/2021/08/30/hexo-website-step-1/"/>
       <url>/2021/08/30/hexo-website-step-1/</url>
@@ -20,7 +45,7 @@
       
         <tags>
             
-            <tag> 网站公告 </tag>
+            <tag> Hexo </tag>
             
         </tags>
       
