@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Hexo新手教程（一）</title>
+      <link href="/2021/08/30/hexo-website-step-1/"/>
+      <url>/2021/08/30/hexo-website-step-1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h3><p>它是一款基于<strong>Node.js</strong>的静态博客框架，依赖少，并且易于安装使用，可以方便的生成静态网页托管在<strong>GitHub</strong>和<strong>Gitee</strong>上，是搭建博客的首选框架。</p><p><strong>Hexo</strong>的中文官网是:<a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p><p>本文主要讨论<strong>Hexo</strong>的初级搭建。</p><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><p>在<strong>Git</strong><a href="https://git-scm.com/downloads">官网</a>上下载<strong>Windows</strong>的程序，按照步骤，安装就可以了。</p><h4 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h4><p>Linux (Ubuntu, Debian)：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install git-core</span><br></pre></td></tr></table></figure><p>Linux (Fedora, Red Hat, CentOS)：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install git-core</span><br></pre></td></tr></table></figure><h4 id="检查安装是否到位"><a href="#检查安装是否到位" class="headerlink" title="检查安装是否到位"></a>检查安装是否到位</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure><h3 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h3><h4 id="Windows-1"><a href="#Windows-1" class="headerlink" title="Windows"></a>Windows</h4><p><a href="http://nodejs.cn/">官网</a>下载</p><p>按照步骤安装</p><h4 id="Linux-1"><a href="#Linux-1" class="headerlink" title="Linux"></a>Linux</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install nodejs</span><br><span class="line">sudo apt-get install npm</span><br></pre></td></tr></table></figure><p>检验</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node -v </span><br><span class="line"></span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure><h3 id="正式安装Hexo"><a href="#正式安装Hexo" class="headerlink" title="正式安装Hexo"></a>正式安装Hexo</h3><p>上面都是环境的配置，下面就是<strong>Hexo</strong>安装的部分内容。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>检验</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure><p>然后新建一个文件夹，</p><p>在<strong>cmd</strong>或者<strong>Git bash</strong>中<code>cd</code>进去。</p><p>例如文件名为<code>blog</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure><p>安装<strong>依赖</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure><p>至此，<strong>Hexo</strong>安装完毕。</p><h3 id="Hexo预览"><a href="#Hexo预览" class="headerlink" title="Hexo预览"></a>Hexo预览</h3><p>在<code>blog</code>文件夹里输入:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g&amp;&amp;hexo s</span><br></pre></td></tr></table></figure><p>这个意思就是生成<strong>静态网站文件，打开本地服务器</strong>。</p><p>浏览器输入<a href="">localhost:4000</a>就可以看到你生成的博客了。</p><p>使用<strong>ctrl+c</strong>可以把服务关掉。</p><h3 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h3><p>这是<strong>Hexo</strong>建设的教程（一），接下来可以看看（二）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网站公告 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Chen Xi&#39;s Blog成立</title>
       <link href="/2021/08/29/start-website/"/>
       <url>/2021/08/29/start-website/</url>
@@ -13,7 +38,7 @@
       
       <categories>
           
-          <category> 公告 </category>
+          <category> 随想 </category>
           
       </categories>
       
