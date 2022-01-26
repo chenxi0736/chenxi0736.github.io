@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://chenxi.host/2021/08/30/hexo-website-step-1/</loc>
+    <loc>https://chenxi.host/2021/08/29/start-website/</loc>
     
     <lastmod>2022-01-26</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://chenxi.host/2021/08/29/start-website/</loc>
+    <loc>https://chenxi.host/2021/08/30/hexo-website-step-1/</loc>
     
-    <lastmod>2022-01-25</lastmod>
+    <lastmod>2022-01-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
