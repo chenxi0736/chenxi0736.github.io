@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chenxi.host/2021/08/30/golang-study-1/</loc>
+    
+    <lastmod>2022-01-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chenxi.host/2021/08/30/c-plus-plus-stl-study-1/</loc>
     
     <lastmod>2022-01-27</lastmod>
@@ -32,15 +41,6 @@
     <loc>https://chenxi.host/2021/08/29/start-website/</loc>
     
     <lastmod>2022-01-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenxi.host/2021/08/30/golang-study-1/</loc>
-    
-    <lastmod>2021-11-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
