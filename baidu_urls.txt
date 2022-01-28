@@ -1,6 +1,7 @@
 https://chenxi.host/2021/10/23/csp-s2-2021/
 https://chenxi.host/2021/09/30/c-plus-plus-study-2/
 https://chenxi.host/2021/09/19/csp-s1-2021/
+https://chenxi.host/2021/09/02/golang-study-2/
 https://chenxi.host/2021/08/30/golang-study-1/
 https://chenxi.host/2021/08/30/c-plus-plus-stl-study-1/
 https://chenxi.host/2021/08/30/hexo-website-step-1/

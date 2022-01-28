@@ -81,6 +81,33 @@
     
     
     <entry>
+      <title>Go语言的第二次学习</title>
+      <link href="/2021/09/02/golang-study-2/"/>
+      <url>/2021/09/02/golang-study-2/</url>
+      
+        <content type="html"><![CDATA[<div class='wow animate__flip' data-wow-duration='' data-wow-delay='' data-wow-offset=''  data-wow-iteration='' ><div class="note green icon modern"><i class="note-icon fas fa-fan"></i><p>本文为本人的<code>Go语言</code>学习笔记，如有差错请留言。</p></div></div><h3 id="Go语言的基本语法"><a href="#Go语言的基本语法" class="headerlink" title="Go语言的基本语法"></a>Go语言的基本语法</h3><p>一个<strong>Go 程序</strong>可以由多个<strong>标记</strong>组成，可以是<strong>关键字</strong>，<strong>标识符</strong>，<strong>常量</strong>，<strong>字符串</strong>，<strong>符号</strong>。</p><p>在<strong>Go语言</strong>中，一行是一次指令（一行代表一个语句的结束），而不是像<strong>C语言</strong>家族中的必须以<strong>分号</strong>结尾。</p><p>例如：</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fmt.Println(<span class="string">&quot;This is chenxi&#x27;s blog&quot;</span>)</span><br></pre></td></tr></table></figure><p>注释与<strong>C语言家族</strong>的<strong>用法</strong>一样，在这里不在赘述。</p><p><strong>标识符</strong>也十分相同：</p><p><strong>标识符</strong>用来命名<strong>变量</strong>、<strong>类型</strong>等程序实体。一个<strong>标识符</strong>实际上就是一个或是多个<strong>字母</strong>(A<del>Z和a</del>z)<strong>数字</strong>(0~9)、<strong>下划线</strong>_组成的序列，但是第一个字符必须是<strong>字母</strong>或<strong>下划线</strong>而不能是数字。</p><p>注意：<strong>标识符</strong>的<strong>名称</strong>不能与<strong>关键字</strong>相同（编程语言都是这么个规则）。</p><p>这里有25个<strong>标识符</strong>（<strong>参考</strong>，有可能会用到）：</p><table><thead><tr><th>break</th><th>default</th><th>func</th><th>interface</th><th>select</th></tr></thead><tbody><tr><td>case</td><td>defer</td><td>go</td><td>map</td><td>struct</td></tr><tr><td>chan</td><td>else</td><td>goto</td><td>package</td><td>switch</td></tr><tr><td>const</td><td>fallthrough</td><td>if</td><td>range</td><td>type</td></tr><tr><td>continue</td><td>for</td><td>import</td><td>return</td><td>var</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Golang </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Go语言的初步学习</title>
       <link href="/2021/08/30/golang-study-1/"/>
       <url>/2021/08/30/golang-study-1/</url>
